@@ -24,8 +24,8 @@
         "OneCommander.exe"
     ],
     "checkver": {
-        "url": "https://onecommander.com/version.txt",
-        "regex": "([\\w.-]+)"
+        "url": "https://onecommander.com/",
+        "regex": "(?sm)Portable.*?Download.*?\\((\\d+(\\.\\d+)+)\\)"
     },
     "autoupdate": {
         "url": "https://onecommander.com/OneCommander$version.zip"
