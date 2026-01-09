@@ -1,17 +1,17 @@
 {
-    "version": "7.61.0",
+    "version": "7.84.0",
     "description": "A cross-platform encrypted messaging service.",
     "homepage": "https://signal.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://updates.signal.org/desktop/signal-desktop-win-x64-7.61.0.exe#/dl.7z",
-            "hash": "sha512:57ef830719ccada84d9bd9b2fe3ce71abe2f80e869c8a17ff98a12252e8c5e1b83135e596eb7b0ec7961861e589610ac91ff47b86ed1b730ac38929942b44d99",
+            "url": "https://updates.signal.org/desktop/signal-desktop-win-x64-7.84.0.exe#/dl.7z",
+            "hash": "sha512:ba04989b5c9c298f2195bca38a3728870521dc6d1813dac89a0e51c1c3df8ee6f227ba7227f871d8400021c36ee1d38f02b8743ba38dac472c6ef607de711316",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         },
         "arm64": {
-            "url": "https://updates.signal.org/desktop/signal-desktop-win-arm64-7.61.0.exe#/dl.7z",
-            "hash": "sha512:394aa58a1199de66cd649f4346b12b6246a4e133b61cbaa3172d0cddc5dd3bb56fad976d75a7fab459b39db2e9f1f047316e632d3dc0a2d5596e3f5fa128d8ce",
+            "url": "https://updates.signal.org/desktop/signal-desktop-win-arm64-7.84.0.exe#/dl.7z",
+            "hash": "sha512:08912c991bb5d12fc344e29e95d12535f065293dd1cde662900816def37416f7cbe5ab197aa8ed280f3332653a2043f1244b331209b92d6bb9034fd4fccce3d2",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\""
         }
     },

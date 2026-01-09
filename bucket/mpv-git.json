@@ -1,5 +1,5 @@
 {
-    "version": "20250713",
+    "version": "20260109",
     "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
@@ -12,12 +12,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-20250713-git-bd21180.7z",
-            "hash": "sha1:0a4e0661e99fc7a57cb2d2c15a2f2ddf648ffce0"
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20260109/mpv-x86_64-20260109-git-85bf9f4.7z",
+            "hash": "3346d2f28b3f3b1b223fbba97ffecdbcdd912a35188f04792384807a7b94738e"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-20250713-git-bd21180.7z",
-            "hash": "sha1:6318715bada6a7b2234b4fb68c8a4743b3d72de5"
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20260109/mpv-i686-20260109-git-85bf9f4.7z",
+            "hash": "a6d8a2bc72f7fa3ede29b74544eeac6dc3f091940a851bc0a6301d7f28b72d68"
         }
     },
     "pre_install": "Remove-Item \"$dir\\updater.bat\"",
@@ -30,16 +30,17 @@
     ],
     "persist": "portable_config",
     "checkver": {
-        "sourceforge": "mpv-player-windows/64bit",
+        "url": "https://api.github.com/repositories/141023757/releases/latest",
+        "jsonpath": "$.assets..browser_download_url",
         "regex": "mpv-x86_64-(\\d+)-git-(?<commit>[\\da-f]+)\\.7z"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/mpv-player-windows/64bit/mpv-x86_64-$version-git-$matchCommit.7z"
+                "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/$version/mpv-x86_64-$version-git-$matchCommit.7z"
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/mpv-player-windows/32bit/mpv-i686-$version-git-$matchCommit.7z"
+                "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/$version/mpv-i686-$version-git-$matchCommit.7z"
             }
         }
     }

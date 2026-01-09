@@ -1,16 +1,16 @@
 {
-    "version": "0.96.0",
+    "version": "0.101.3",
     "description": "Build your personal knowledge base with Trilium Notes",
     "homepage": "https://github.com/TriliumNext/Trilium",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TriliumNext/Trilium/releases/download/v0.96.0/TriliumNotes-v0.96.0-windows-x64.zip",
-            "hash": "bdcaabbb51fcb50d4f5d27c9426b21438ef31f0a36b36aaff149395d69b8a7ed"
+            "url": "https://github.com/TriliumNext/Trilium/releases/download/v0.101.3/TriliumNotes-v0.101.3-windows-x64.zip",
+            "hash": "ae052d4fccd1b79ef8d20e697b9eca55c70778627fda6d6891cf1021e9d51ffb"
         },
         "arm64": {
-            "url": "https://github.com/TriliumNext/Trilium/releases/download/v0.96.0/TriliumNotes-v0.96.0-windows-arm64.zip",
-            "hash": "0260160c22b4e4153d30affda5b81712b57271103c1dc716d91bccd7ffb8ee59"
+            "url": "https://github.com/TriliumNext/Trilium/releases/download/v0.101.3/TriliumNotes-v0.101.3-windows-arm64.zip",
+            "hash": "8122392c208051c821aa251ad66b9f5a01ad85bbe09f878329cf579855c5d1bf"
         }
     },
     "pre_install": [

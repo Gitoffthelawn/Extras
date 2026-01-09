@@ -1,5 +1,5 @@
 {
-    "version": "2.22.48",
+    "version": "2.24.9",
     "description": "Font manager",
     "homepage": "https://fontba.se",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://releases.fontba.se/win/FontBase-2.22.48.exe#/dl.7z",
-            "hash": "sha512:331da8d4666b739aaf4c3c3169a474cd28150b3916b4f486036f3a0d2314c9efc7c2abcbe9fe01615108555468a43f6a07caa9c990f1017420bf407987733026",
+            "url": "https://releases.fontba.se/win/FontBase-2.24.9.exe#/dl.7z",
+            "hash": "sha512:9bd41ba146005834cdd70a4aa3935ed663499535e15993c1ce3d0721af4340ebf68b039bd1e76a0decda6e5aca2bff300979989598bad7d6634b78846f8d19a6",
             "pre_install": [
                 "Expand-7ZipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall*\" -Recurse"
@@ -23,8 +23,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://fontba.se/updates",
-        "regex": "([\\d.]+)</a"
+        "url": "https://releases.fontba.se/win/latest.yml",
+        "regex": "(?m)^version:\\s*([0-9]+(?:\\.[0-9]+)*)\\s*$"
     },
     "autoupdate": {
         "architecture": {
