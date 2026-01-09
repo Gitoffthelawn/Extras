@@ -1,5 +1,5 @@
 {
-    "version": "1.102.1",
+    "version": "1.108.0",
     "description": "Lightweight but powerful source code editor",
     "homepage": "https://code.visualstudio.com/",
     "license": {
@@ -8,20 +8,20 @@
     },
     "notes": [
         "Add Visual Studio Code as a context menu option by running:",
-        "'reg import \"$dir\\install-context.reg\"'",
+        "reg import \"$dir\\install-context.reg\"",
         "For file associations, run:",
-        "'reg import \"$dir\\install-associations.reg\"'",
+        "reg import \"$dir\\install-associations.reg\"",
         "For github integration, run:",
-        "'reg import \"$dir\\install-github-integration.reg\"'"
+        "reg import \"$dir\\install-github-integration.reg\""
     ],
     "architecture": {
         "64bit": {
-            "url": "https://update.code.visualstudio.com/1.102.1/win32-x64-archive/stable#/dl.7z",
-            "hash": "cedff2048417d70cb45c5d6cdcb3124ff6c002cd7c44983868fdee02af6cd7d8"
+            "url": "https://update.code.visualstudio.com/1.108.0/win32-x64-archive/stable#/dl.7z",
+            "hash": "d386038cefc51e168ca26901c5076ea741090740aaae92e74b1db8603b4a0a3e"
         },
         "arm64": {
-            "url": "https://update.code.visualstudio.com/1.102.1/win32-arm64-archive/stable#/dl.7z",
-            "hash": "328175823bba126322adef257403b6e8256288d03520b3c6a691e1c99ea4864f"
+            "url": "https://update.code.visualstudio.com/1.108.0/win32-arm64-archive/stable#/dl.7z",
+            "hash": "0589afbfe3e29260ea1ad468586874daff5d100da9d71c289c36f218ede1ede6"
         }
     },
     "env_add_path": "bin",
@@ -78,14 +78,14 @@
             "64bit": {
                 "url": "https://update.code.visualstudio.com/$version/win32-x64-archive/stable#/dl.7z",
                 "hash": {
-                    "url": "https://update.code.visualstudio.com/api/update/win32-x64-archive/stable/latest",
+                    "url": "https://update.code.visualstudio.com/api/versions/$version/win32-x64-archive/stable",
                     "jsonpath": "$.sha256hash"
                 }
             },
             "arm64": {
                 "url": "https://update.code.visualstudio.com/$version/win32-arm64-archive/stable#/dl.7z",
                 "hash": {
-                    "url": "https://update.code.visualstudio.com/api/update/win32-arm64-archive/stable/latest",
+                    "url": "https://update.code.visualstudio.com/api/versions/$version/win32-arm64-archive/stable",
                     "jsonpath": "$.sha256hash"
                 }
             }

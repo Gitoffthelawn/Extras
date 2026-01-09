@@ -1,20 +1,20 @@
 {
-    "version": "1.10.1",
+    "version": "1.11.4",
     "description": "A privacy minded and highly configurable Discord client",
     "homepage": "https://github.com/Milkshiift/GoofCord",
     "license": "OSL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.10.1/GoofCord-1.10.1-win-x64.zip",
-            "hash": "f0242380657ed91dd510e1e67685f53627ffcc30d0933aa5cd9d6385bf86fefc"
+            "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.11.4/GoofCord-1.11.4-win-x64.zip",
+            "hash": "cba5d11db99a6e8b395897e7b8a574d5147cf2f75aa7614893361b58f64633e4"
         },
         "32bit": {
-            "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.10.1/GoofCord-1.10.1-win-ia32.zip",
-            "hash": "7d75220e3e276c6237cc278613dab590b260bf61e57bf4bc23378031ef5a5cd0"
+            "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.11.4/GoofCord-1.11.4-win-ia32.zip",
+            "hash": "9e8865852525f68296a5f320358aa79c510537690be52eff8199668cc61b196c"
         },
         "arm64": {
-            "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.10.1/GoofCord-1.10.1-win-arm64.zip",
-            "hash": "a52da749d429b913a290ad2ce4cdbfcbf080d65102c10b98f3ba44e9afceaf43"
+            "url": "https://github.com/Milkshiift/GoofCord/releases/download/v1.11.4/GoofCord-1.11.4-win-arm64.zip",
+            "hash": "c77289f0549384631d33d3f8a56b7f869e0bd513b7639ffe322f8700272048de"
         }
     },
     "shortcuts": [

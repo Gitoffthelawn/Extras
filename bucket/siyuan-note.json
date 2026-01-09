@@ -1,20 +1,20 @@
 {
-    "version": "3.2.0",
+    "version": "3.5.2",
     "description": "SiYuan is a privacy-first, self-hosted, fully open source personal knowledge management software, supports fine-grained block-level reference, and Markdown WYSIWYG.",
     "homepage": "https://b3log.org/siyuan",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/siyuan-note/siyuan/releases/download/v3.2.0/siyuan-3.2.0-win.exe#/dl.7z",
-            "hash": "92cb6e2b7240c6c0b7041120a77211c86a0686d3bb573622153e117477cc816f",
+            "url": "https://github.com/siyuan-note/siyuan/releases/download/v3.5.2/siyuan-3.5.2-win.exe#/dl.7z",
+            "hash": "f2b72c316da3e8ecc635f45a501054c396fd042c4243641b4bb477f799e1a7c9",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
             ]
         },
         "arm64": {
-            "url": "https://github.com/siyuan-note/siyuan/releases/download/v3.2.0/siyuan-3.2.0-win-arm64.exe#/dl.7z",
-            "hash": "573b584a93609ac56a8a380940f8ad2d35745cd2b53ddc6c0067aef2da28737b",
+            "url": "https://github.com/siyuan-note/siyuan/releases/download/v3.5.2/siyuan-3.5.2-win-arm64.exe#/dl.7z",
+            "hash": "ef3a819604d924bd68eba71300664db1320587ad601d8f641a06b89468b406f1",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Force -Recurse"
