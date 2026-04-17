@@ -1,16 +1,16 @@
 {
-    "version": "1.4.6",
+    "version": "1.4.10",
     "description": "The open source AI coding agent.",
     "homepage": "https://opencode.ai/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/anomalyco/opencode/releases/download/v1.4.6/opencode-desktop-windows-x64.exe#/dl.7z",
-            "hash": "94c66d7c5fc0b5319009f683e1b24e140e814af6a843b5c04f9fbd3fd9167e35"
+            "url": "https://github.com/anomalyco/opencode/releases/download/v1.4.10/opencode-desktop-windows-x64.exe#/dl.7z",
+            "hash": "010e2591065a3ce2bc73b9943f43677add0519c206855e209a33c3daccbd5c40"
         },
         "arm64": {
-            "url": "https://github.com/anomalyco/opencode/releases/download/v1.4.6/opencode-desktop-windows-arm64.exe#/dl.7z",
-            "hash": "fefce8ff85f0bc7c5625bf7c5cfe65b54305df84cf112f807125638082c1d361"
+            "url": "https://github.com/anomalyco/opencode/releases/download/v1.4.10/opencode-desktop-windows-arm64.exe#/dl.7z",
+            "hash": "60e394bad3ca3573d81c10518c16d453d859e4f621fe91c730306fd4d690243d"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse -ErrorAction Ignore",
