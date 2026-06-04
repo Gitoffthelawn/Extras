@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x64&unicode=1&full=0&setup=0&version=2.5.7#/dl.7z",
-            "hash": "865cb6afcc80167f8ca191e5d85c1a3bfc328fbc2118dafe14e5af0f1a077f08",
+            "hash": "0e15a834605d71c72d0a934253daf27de188e45ca106671b1e49f8d2b36841db",
             "bin": [
                 "Imagine64.exe",
                 [
@@ -27,7 +27,7 @@
         },
         "32bit": {
             "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x86&unicode=1&full=0&setup=0&version=2.5.7#/dl.7z",
-            "hash": "aa34c4980e91a252613594feaf275d6510132a2d888803e988a7c06385f2baa2",
+            "hash": "2c5a56d0745f58891ceedca4deb17271626de55f6a3fb7ee90bf06ecf06339dc",
             "bin": "Imagine.exe",
             "shortcuts": [
                 [
