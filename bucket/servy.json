@@ -1,19 +1,20 @@
 {
-    "version": "8.7",
+    "version": "8.9",
     "description": "Servy lets you run any app as a native Windows service with full control over the working directory, startup type, process priority, logging, health checks, environment variables, dependencies, pre-launch and post-launch hooks, pre-stop and post-stop hooks, and parameters.",
     "homepage": "https://servy-win.github.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aelassas/servy/releases/download/v8.7/servy-8.7-x64-installer.exe",
-            "hash": "3f27bdf8f6100d3c6dc1ceda72137d4c54a330d1334dd5b6a08b5605f7193053"
+            "url": "https://github.com/aelassas/servy/releases/download/v8.9/servy-8.9-x64-portable.7z",
+            "hash": "33a6faeba9aa2a3e9f96acd03b3a3050568752dbdc20267fc486cbacdebcb520",
+            "extract_dir": "servy-8.9-x64-portable"
         },
         "arm64": {
-            "url": "https://github.com/aelassas/servy/releases/download/v8.7/servy-8.7-arm64-installer.exe",
-            "hash": "e6cf8221a54f40f3a2566560d3ba32ce7c1c00cf39e19d4795636d88844c0967"
+            "url": "https://github.com/aelassas/servy/releases/download/v8.9/servy-8.9-arm64-portable.7z",
+            "hash": "bc618ef44eb7cfeff5021c7137618b1952bc6fc69e4db6268779680defe94bc5",
+            "extract_dir": "servy-8.9-arm64-portable"
         }
     },
-    "innosetup": true,
     "bin": "servy-cli.exe",
     "shortcuts": [
         [
@@ -31,10 +32,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/aelassas/servy/releases/download/v$version/servy-$version-x64-installer.exe"
+                "url": "https://github.com/aelassas/servy/releases/download/v$version/servy-$version-x64-portable.7z",
+                "extract_dir": "servy-$version-x64-portable"
             },
             "arm64": {
-                "url": "https://github.com/aelassas/servy/releases/download/v$version/servy-$version-arm64-installer.exe"
+                "url": "https://github.com/aelassas/servy/releases/download/v$version/servy-$version-arm64-portable.7z",
+                "extract_dir": "servy-$version-arm64-portable"
             }
         }
     }
